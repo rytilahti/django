@@ -47,6 +47,9 @@ installation guide
 The steps are not duplicated in this tutorial, because as a third-party
 package, it may change separately to Django's schedule.
 
+In addition, you need to modify the created template files to contain a 
+``</body>`` tag as indicated in the `Django Debug Toolbar's documentation <https://django-debug-toolbar.readthedocs.io/en/latest/tips.html#the-toolbar-isn-t-displayed>`_.
+
 Once installed, you should be able to see the DjDT "handle" on the right side
 of the browser window when you refresh the polls application. Click it to open
 the debug toolbar and use the tools in each panel. See the `panels
